@@ -1,0 +1,74 @@
+body {
+    background-color: #fff8f8;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header h1 {
+    color: #333;
+    padding: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.love-image {
+    width: 280px;
+    height: auto;
+    margin: 20px 0;
+    background-color: white;
+    border: 4px solid pink;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(255, 105, 180, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.love-image:hover {
+    transform: scale(1.05);
+}
+
+.button-container {
+    margin-top: 15px;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 0 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.yes-btn {
+    background-color: #ff6f91;
+    color: white;
+}
+.no-btn {
+    background-color: #ffc1cc;
+    color: #333;
+    padding: 12px 25px;
+    border-radius: 25px;
+    display: inline-block;
+    text-decoration: none; /* Removes underline */
+    font-size: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.no-btn:hover {
+    transform: scale(1.1);
+}
+
+.no-btn:active {
+    transform: scale(0.95);
+}
+
+
